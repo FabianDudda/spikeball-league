@@ -1,0 +1,33 @@
+/* ====== Table ====== */
+
+#table {
+    width: 100%;
+    padding: 10px;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    background-color: lightgray;
+}
+
+#table tr:nth-child(even) {
+    background-color: white;
+}
+
+#table tr:nth-child(odd) {
+    background-color: silver;
+}
+
+#table tr:first-child {
+    background-color: gray;
+}
+
+#table tr th {
+    cursor: pointer;
+}
+
+#table th, td {
+    text-align: left;
+    padding: 10px 5px;
+    overflow: hidden;
+    min-width: 20px;
+    max-width: 50px;
+}

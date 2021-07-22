@@ -1,0 +1,95 @@
+/* ====== General ====== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+/* ====== BUTTONS ====== */
+
+.btn-1,
+.btn-1 :visited,
+.btn-1 :hover,
+.btn-1 :active {
+    width: 100%;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: darkcyan;
+}	
+
+.btn-2,
+.btn-2 :visited,
+.btn-2 :hover,
+.btn-2 :active {
+    width: 100%;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #00bdbd;
+}	
+
+/* ====== Forms ====== */
+
+.form-header {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto 15px auto;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* ====== CONTAINER ====== */
+
+.user-info-container,
+.user-edit-container,
+.add-match-container,
+.user-stats-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+/* ====== DISPLAY USER INFORMATION ====== */
+
+.user-info-container span {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+

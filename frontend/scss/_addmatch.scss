@@ -1,0 +1,68 @@
+/* ====== ADD MATCH ====== */
+
+.add-match-row {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-match-team-1 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: navy;
+}
+
+.add-match-team-2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: maroon;
+}
+
+.add-match-team-1 b,
+.add-match-team-2 b {
+    color: white;
+    display: flex;
+    align-self: center;
+    margin: 5px 0 5px 0
+}
+
+.add-match-vs {
+    flex: 0 0 21px;
+}
+
+.add-match-points-team-1,
+.add-match-points-team-2 {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: center;
+    color: navy;
+}
+
+.add-match-points-team-2 {
+    color: maroon;
+}
+
+.add-match-select-player-team-1,
+.add-match-select-player-team-2 {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: center;
+    color: navy;
+}
+
+.add-match-select-player-team-2 {
+    color: maroon;
+}

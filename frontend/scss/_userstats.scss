@@ -1,0 +1,42 @@
+/* ====== DISPLAY USER STATS ====== */
+
+.user-stats-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#display-win-rate, #display-win-defeat, #display-total-games {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#display-wins, #display-defeats {
+    background-color: lightgray;
+}
+
+#display-any-stats-user-name {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+#display-any-user-win-rate, #display-any-user-total-games {
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+#display-any-user-wins {
+    color: green;
+}
+
+#display-any-user-defeats {
+    color: red;
+}
